@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
         HashMap<Integer, View.OnClickListener> Listeners = new HashMap<>();
 
         // Create listeners for each number button.
-        int[] ids = new int[] {R.id.num1, R.id.num2, R.id.num3, R.id.num4, R.id.num5, R.id.num6, R.id.num7, R.id.num8, R.id.num9 };
+        int[] ids = new int[] {R.id.num0, R.id.num1, R.id.num2, R.id.num3, R.id.num4, R.id.num5, R.id.num6, R.id.num7, R.id.num8, R.id.num9 };
         for (int i = 0; i < ids.length; i++)
-            Listeners.put(ids[i], new NumberAddListener(i + 1));
+            Listeners.put(ids[i], new NumberAddListener(i));
 
         // Create the operator's listeners.
         Map.of(

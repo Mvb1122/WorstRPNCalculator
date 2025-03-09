@@ -33,7 +33,7 @@ jobs:
     - name: Copy to build folder
       run: cp "./app/build/outputs/apk/debug/app-debug.apk" "./build/Worst RPN Calculator.apk"
     - name: Add to git.
-      run: git add ./build/
+      run: git add ./build/ -f
     - name: Make commit.
       run: git commit -m "Build"
     - name: Push to Github.

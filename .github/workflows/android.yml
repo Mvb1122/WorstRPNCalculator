@@ -31,7 +31,7 @@ jobs:
       run: mkdir "./build/"
 
     - name: Copy to build folder
-      run: cv "./app/build/outputs/apk/debug/app-debug.apk" "./build/Worst RPN Calculator.apk"
+      run: cp "./app/build/outputs/apk/debug/app-debug.apk" "./build/Worst RPN Calculator.apk"
     - name: Add to git.
       run: git add ./build/
     - name: Make commit.

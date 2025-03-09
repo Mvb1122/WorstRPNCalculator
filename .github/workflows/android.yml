@@ -39,5 +39,5 @@ jobs:
       run: git add "Worst RPN Calculator.apk"
     - name: Make commit.
       run: git commit -m "Build"
-    - name: Push to Github:
+    - name: Push to Github.
       run: git push

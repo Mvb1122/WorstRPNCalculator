@@ -224,18 +224,18 @@
                         android:text="@string/Enter" />
 
                     <Button
-                        android:id="@+id/equalButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:text="@string/Equals" />
-
-                    <Button
                         android:id="@+id/runButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/Run" />
+
+                    <Button
+                        android:id="@+id/equalButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/Equals" />
                 </LinearLayout>
             </TableRow>
 

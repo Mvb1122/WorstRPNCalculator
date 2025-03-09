@@ -1,7 +1,11 @@
 name: Android CI
 
 on:
-  workflow_dispatch:
+   push:
+     branches: [ "main" ]
+   pull_request:
+     branches: [ "main" ]
+   workflow_dispatch:
 
 jobs:
   build:
@@ -26,15 +30,3 @@ jobs:
       with:
         name: "Worst RPN Calculator.apk"
         path: "./app/build/outputs/apk/debug/app-debug.apk"
-
-    - name: Make build folder.
-      run: mkdir "./build/"
-
-    - name: Copy to build folder
-      run: cp "./app/build/outputs/apk/debug/app-debug.apk" "./build/Worst RPN Calculator.apk"
-    - name: Add to git.
-      run: git add ./build/ -f
-    - name: Make commit.
-      run: git commit -m "Build"
-    - name: Push to Github.
-      run: git push

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RPNCalculator</string>
+    <string name="Plus">+</string>
+    <string name="Equals">=</string>
+    <string name="Multiply">*</string>
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+    <string name="Seven">7</string>
+    <string name="Eight">8</string>
+    <string name="Nine">9</string>
+    <string name="Run">Run</string>
+    <string name="Enter">Enter</string>
+    <string name="SquareRoot">√</string>
+    <string name="Minus">-</string>
+    <string name="PrePressText">Please press a button! Remember that this follows RPN.\n</string>
+    <string name="Slash">/</string>
+    <string name="BackSpaceButton">Back</string>
+    <string name="WipeButton">Wipe</string>
+</resources>

@@ -33,11 +33,13 @@ jobs:
       with:
         name: "Worst RPN Calculator.apk"
         path: "./app/build/outputs/apk/debug/app-debug.apk"
+    - name: Rename file before adding to release.
+      run: mv "./app/build/outputs/apk/debug/app-debug.apk" "./Worst RPN Calculator.apk"
     - name: Create Release
       uses: ncipollo/release-action@v1.16.0
       with: 
-         artifacts: "./app/build/outputs/apk/debug/app-debug.apk"
+         artifacts: "./Worst RPN Calculator.apk"
          draft: True
          name: "Automatic Build"
-         body: "`r format(Sys.time(), '%d %B, %Y')`"
+         body: "Able to ignore as needed."
          tag: "Automatic Builds"

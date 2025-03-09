@@ -1,3 +1,3 @@
 oh god this is so bad
 
-# APK under Actions > Android CL > (Click last run) > "Worst RPN Calculator.apk"
+# APK under Releases > Latest Automatic Build > Worst.RPN.Calculator.apk
